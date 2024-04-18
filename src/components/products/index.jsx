@@ -5,7 +5,6 @@ import ProductComponent from './ProductComponent';
 
 function ProductsPage() {
   const { data, isLoading, error } = useApiHook('https://dummyjson.com/products');
-  console.log("===========>", data, isLoading, error);
   if (isLoading) {
     return <div>Loading...</div>;
   }

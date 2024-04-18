@@ -20,14 +20,19 @@
         width: 100%;
       }
     }
-    >button{
-      border: none;
-      outline: none;
-      color: #FFF;
-      border-radius: 8px;
-      cursor: pointer;
-      padding-block: 15px;
-      background-color: #0066ff;
+    .actions{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      >button{
+        border: none;
+        outline: none;
+        color: #FFF;
+        border-radius: 8px;
+        cursor: pointer;
+        padding-block: 15px;
+        background-color: #0066ff;
+      }
     }
   }
 }
