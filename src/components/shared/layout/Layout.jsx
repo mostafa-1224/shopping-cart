@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import CartIcon from "../../../assets/cart-icon.png";
 import './layout.scss';
 
 export default function Layout() {
@@ -16,6 +17,10 @@ export default function Layout() {
             </li>
             <li>
               <Link to="/cart">Cart</Link>
+            </li>
+            <li className="cart-icon">
+              <img src={CartIcon} alt="" srcset="" width="30px" />
+              <span>0</span>
             </li>
           </ul>
         </nav>
