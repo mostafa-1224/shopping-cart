@@ -6,6 +6,7 @@ import LandingPage from './components/landing';
 import PathNotFound from './components/404';
 import ProductsPage from './components/products';
 import CartPage from './components/cart';
+import ProductDetails from './components/productDetails/ProductDetails';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<LandingPage />} />
           <Route path="products" element={<ProductsPage />} />
+          <Route path="products/:id" element={<ProductDetails />} />
           <Route path="cart" element={<CartPage />} />
           <Route path="*" element={<PathNotFound />} />
         </Route>
