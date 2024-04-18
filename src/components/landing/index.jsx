@@ -1,8 +1,13 @@
 import React from 'react'
+import CartIcon from "../../assets/cart-icon.png";
+import "./landing.scss";
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <div className='landing-container'>
+      <img src={CartIcon} alt="" width="300px" />
+      <h1>Welcome To Our Shopping Cart</h1>
+    </div>
   )
 }
 
