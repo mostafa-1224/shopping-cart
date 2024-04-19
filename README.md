@@ -1,8 +1,24 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--This is a react-js project for a shopping cart that lists products from an external API then you can add products to your shopping and delete them.
+-I used Vite as react-project builder.
 
-Currently, two official plugins are available:
+-Installed Packages:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  > sass for writing .scss style sheets.
+
+  > react-router-dom for client side routing.
+
+-I used react context to manage my app state across different components.
+
+# Installation Instructions
+
+1- you need to have Node (JS package manager) installed on your device.
+
+2- you need to have git installed on your device.
+
+3- clone this repo from your terminal with "git clone REPO_URL".
+
+4- open the folder inside of your code editor & "run npm install".
+
+5- run "npm run dev" to serve the project on localhost.
