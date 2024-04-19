@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 
 function ProductDetails() {
   let params = useParams();
-  console.log(params)
   const { data, isLoading, error } = useApiHook(`https://dummyjson.com/products/${params.id}`);
   if (isLoading) {
     return <div>Loading...</div>;

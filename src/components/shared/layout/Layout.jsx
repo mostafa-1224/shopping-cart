@@ -11,7 +11,6 @@ export default function Layout() {
   for(let i = 0; i < cartCtx.length; i++){
     items += cartCtx[i].count;
   }
-  console.log(items)
   return (
     <div className="layout">
       <div className="header">

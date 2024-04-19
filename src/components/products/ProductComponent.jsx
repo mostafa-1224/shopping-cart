@@ -7,12 +7,10 @@ function ProductComponent({ item, enableDelete = false }) {
   const { dispatch } = useCartContext();
 
   const addProduct = () => {
-    console.log("from add to cart")
     dispatch({
       type: "ADD_PRODUCT",
       payload: { ...item }
     })
-    console.log("from add to cart")
   }
   const deleteProduct = () => {
     dispatch({
